@@ -157,7 +157,12 @@ public class MainActivity extends Activity implements SensorEventListener {
         Button bb3 = (Button) findViewById(R.id.saveButton);
         TextView tv1 = (TextView) findViewById(R.id.textView1);
         Boolean dataOn=false;
+        String fileName="mylogfile1.txt";
         FileOutputStream fout;
+        String tempstring;
+
+        File file = new File(Environment.getExternalStorageDirectory(), fileName);
+
 
         if (view.getId() == R.id.stopButton) {
             bb1.setText("Button pressed");
@@ -178,15 +183,16 @@ public class MainActivity extends Activity implements SensorEventListener {
                 //dataOn = false;
             }
         }
-        String tempstring="mystring";
+       //String tempstring="mystring";
 
         //String filename="mylogfile.txt";
         //File myfile= new File("/storage/sdcard0/files/mylogfile.txt");
         if (view.getId() == R.id.saveButton) {
             bb3.setText("Button Pushed");
             try {
-               fout= new FileOutputStream("mylogfile.txt");
-
+               //fout= new FileOutputStream("mylogfile.txt");
+                fout = new FileOutputStream(file);
+                tempstring="Previous X values: \n" + xold1 + "\n" + xold2 + "\n" + xold3 + "\n" + xold4;
                fout.write(tempstring.getBytes());
 
                 fout.close();
