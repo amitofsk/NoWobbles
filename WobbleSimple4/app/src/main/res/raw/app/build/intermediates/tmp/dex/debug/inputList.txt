@@ -1,0 +1,5 @@
+C:\Users\mitofskya\AndroidStudioProjects\WobbleSimple4\app\build\intermediates\classes\debug
+C:\Users\mitofskya\AndroidStudioProjects\WobbleSimple4\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-6e6662dad2becc1e6ae00b9d97da6cafdf2aaf9b.jar
+C:\Users\mitofskya\AndroidStudioProjects\WobbleSimple4\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-9f692b27b60308ca3a3ef86478aefab0a88308a7.jar
+C:\Users\mitofskya\AndroidStudioProjects\WobbleSimple4\app\build\intermediates\pre-dexed\debug\classes-d3bd87e2cb7d7cae5dbd01afa4682f37e792dc54.jar
+C:\Users\mitofskya\AndroidStudioProjects\WobbleSimple4\app\build\intermediates\pre-dexed\debug\classes-66f6869f0faa5f30ecc40f4e5e0cbfd3957b350b.jar
